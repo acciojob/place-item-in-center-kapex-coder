@@ -1,2 +1,24 @@
-
 /* Your CSS Code here. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    padding: .5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
